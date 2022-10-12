@@ -33,7 +33,7 @@ class Foot extends React.Component{
                 <Link to="/about">About Us</Link>
               </li>
               <li className="list-unstyled">
-                <Link to="/location">Store Location</Link>
+                <Link to="/contactus">Contact Us</Link>
               </li>
             </ul>
           </Col>

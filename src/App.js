@@ -12,7 +12,7 @@ import Item from "./pages/Item";
 import Result from "./pages/Result";
 import Policy from "./pages/Policy";
 import About from "./pages/About";
-import Locator from "./pages/Locator";
+import Contact from "./pages/Contact";
 import Bar from "./components/Bars/Bar";
 
 const App =function() {
@@ -27,7 +27,7 @@ const App =function() {
             <Route path="/item/:id" element={<Item />} />
             <Route path="/collections" element={<Collections />} />
             <Route path="/about" element={<About />} />
-            <Route path="/location" element={<Locator />} />
+            <Route path="/contactus" element={<Contact />} />
             <Route path="/policies/:term" element={<Policy />} />
             <Route path="/result/:term" element={<Result />} />
           </Routes>

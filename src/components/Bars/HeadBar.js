@@ -36,7 +36,7 @@ return (
                 <Nav>
                 <Search dark={true}/>
                 </Nav>
-                    {category.map(function(Link,i){
+                    {category ? category.map(function(Link,i){
                         return(  
                             <Nav  key={i}>
                             <Nav.Link  key={i} href={"/shop/"+Link.slug}  className="link" activeStyle={{color:'green'}} to={"/shop/"+Link.slug}>
@@ -45,7 +45,7 @@ return (
                             </Nav>
                         )
                     })
-                  }
+                  :null}
             </Navbar.Collapse>
 
             <Nav pullRight>
